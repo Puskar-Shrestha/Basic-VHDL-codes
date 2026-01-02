@@ -1,0 +1,7 @@
+v 4
+file . ".\tb_decoder_2x4.vhd" "7dc8c072c7a9bb2ad339f48476e3e544dab566a5" "20251227112946.042":
+  entity tb_decoder_2x4 at 1( 0) + 0 on 13;
+  architecture sim of tb_decoder_2x4 at 7( 88) + 0 on 14;
+file . ".\decoder_2x4.vhd" "08184cb8c05499875b399065832c7f06fe93590f" "20251227112940.153":
+  entity decoder_2x4 at 1( 0) + 0 on 11;
+  architecture beh of decoder_2x4 at 11( 197) + 0 on 12;

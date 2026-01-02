@@ -1,0 +1,7 @@
+v 4
+file . ".\tb_half_subtractor.vhd" "d0c72e772b3c11c4ee3b97dacf16c71d435ae17d" "20251227132509.130":
+  entity tb_half_subtractor at 1( 0) + 0 on 13;
+  architecture sim of tb_half_subtractor at 7( 92) + 0 on 14;
+file . ".\half_subtractor.vhd" "c8d13d8835cb7daa34144bd9854ddbfa70bbc17c" "20251227132502.853":
+  entity half_subtractor at 1( 0) + 0 on 11;
+  architecture beh of half_subtractor at 11( 169) + 0 on 12;

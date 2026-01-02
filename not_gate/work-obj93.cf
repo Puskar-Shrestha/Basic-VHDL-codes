@@ -1,0 +1,7 @@
+v 4
+file . ".\tb_not_gate.vhd" "08fd9207f5404b69eafbb3907d1593938e3b45d3" "20251127012139.089":
+  entity tb_not_gate at 2( 78) + 0 on 13;
+  architecture sim of tb_not_gate at 8( 163) + 0 on 14;
+file . ".\not_gate.vhd" "100cbd19d615ba931df0a05107bd85f3eeafdae3" "20251127012036.980":
+  entity not_gate at 1( 0) + 0 on 11;
+  architecture beh of not_gate at 11( 153) + 0 on 12;

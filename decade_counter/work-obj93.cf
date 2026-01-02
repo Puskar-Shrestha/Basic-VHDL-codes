@@ -1,0 +1,7 @@
+v 4
+file . ".\tb_decade_counter.vhd" "0e118176339ddd50882b1ebe7335e41f19e762d0" "20251227154301.753":
+  entity tb_decade_counter at 1( 0) + 0 on 13;
+  architecture beh of tb_decade_counter at 7( 91) + 0 on 14;
+file . ".\decade_counter.vhd" "9bfd1a9be70c0e2f3a6eece504c4638ca61d0f0a" "20251227154258.210":
+  entity decade_counter at 1( 0) + 0 on 11;
+  architecture beh of decade_counter at 12( 216) + 0 on 12;

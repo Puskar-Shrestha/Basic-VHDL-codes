@@ -1,0 +1,7 @@
+v 4
+file . ".\tb_full_subtractor.vhd" "04f854fd88c0bf25e889ad39c6368f89955ab951" "20251211074425.390":
+  entity tb_full_subtractor at 1( 0) + 0 on 13;
+  architecture sim of tb_full_subtractor at 7( 92) + 0 on 14;
+file . ".\full_subtractor.vhd" "69fb37a856fb980858751be3449eeb2fd8a5a851" "20251211074402.376":
+  entity full_subtractor at 1( 0) + 0 on 11;
+  architecture beh of full_subtractor at 11( 174) + 0 on 12;

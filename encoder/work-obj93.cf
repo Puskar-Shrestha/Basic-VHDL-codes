@@ -1,0 +1,7 @@
+v 4
+file . ".\tb_encoder_4x2.vhd" "b6e8d655792773b97f358c1415a644dcad7a61bb" "20251211071149.525":
+  entity tb_encoder_4x2 at 1( 0) + 0 on 13;
+  architecture sim of tb_encoder_4x2 at 7( 88) + 0 on 14;
+file . ".\encoder_4x2.vhd" "71b11d1410de708926d52bed3982d70179fc8034" "20251211071057.665":
+  entity encoder_4x2 at 1( 0) + 0 on 11;
+  architecture beh of encoder_4x2 at 11( 194) + 0 on 12;

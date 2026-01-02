@@ -1,0 +1,63 @@
+$date
+  Thu Nov 27 08:19:52 2025
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module tb_mux_8x1 $end
+$var reg 8 ! i[7:0] $end
+$var reg 3 " s[2:0] $end
+$var reg 1 # y $end
+$scope module uut $end
+$var reg 8 $ i[7:0] $end
+$var reg 3 % s[2:0] $end
+$var reg 1 & y $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b00110101 !
+b000 "
+1#
+b00110101 $
+b000 %
+1&
+#50
+b001 "
+0#
+b001 %
+0&
+#100
+b010 "
+1#
+b010 %
+1&
+#150
+b011 "
+0#
+b011 %
+0&
+#200
+b100 "
+1#
+b100 %
+1&
+#250
+b101 "
+b101 %
+#300
+b110 "
+0#
+b110 %
+0&
+#350
+b111 "
+b111 %
+#400

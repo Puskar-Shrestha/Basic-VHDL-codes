@@ -1,0 +1,7 @@
+v 4
+file . ".\tb_xnor_gate.vhd" "8539ed1eb10f7f28d70310f925218a4ef35d2825" "20251127013922.696":
+  entity tb_xnor_gate at 2( 64) + 0 on 13;
+  architecture sim of tb_xnor_gate at 8( 150) + 0 on 14;
+file . ".\xnor_gate.vhd" "72b912fc108c781602bed863df74ef6007f22c3b" "20251127013918.687":
+  entity xnor_gate at 1( 0) + 0 on 11;
+  architecture beh of xnor_gate at 11( 152) + 0 on 12;

@@ -1,0 +1,35 @@
+$date
+  Thu Nov 27 07:07:31 2025
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module tb_not_gate $end
+$var reg 1 ! a $end
+$var reg 1 " y $end
+$scope module utt $end
+$var reg 1 # a $end
+$var reg 1 $ y $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+1"
+0#
+1$
+#100
+#200
+1!
+0"
+1#
+0$
+#300
+#400

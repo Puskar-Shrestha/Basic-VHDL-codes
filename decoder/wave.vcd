@@ -1,0 +1,43 @@
+$date
+  Sat Dec 27 17:15:20 2025
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module tb_decoder_2x4 $end
+$var reg 2 ! s[1:0] $end
+$var reg 4 " y[3:0] $end
+$scope module uut $end
+$var reg 2 # s[1:0] $end
+$var reg 4 $ y[3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b00 !
+b0001 "
+b00 #
+b0001 $
+#100
+b01 !
+b0010 "
+b01 #
+b0010 $
+#200
+b10 !
+b0100 "
+b10 #
+b0100 $
+#300
+b11 !
+b1000 "
+b11 #
+b1000 $
+#400

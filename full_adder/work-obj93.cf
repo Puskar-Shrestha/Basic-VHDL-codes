@@ -1,0 +1,7 @@
+v 4
+file . ".\tb_full_adder.vhd" "9acdfd0eac52718d5483cddb928cd53628440adc" "20251211073446.923":
+  entity tb_full_adder at 1( 0) + 0 on 13;
+  architecture sim of tb_full_adder at 7( 87) + 0 on 14;
+file . ".\full_adder.vhd" "c001e8369f7b8dbdc7bbc2edb4b84627397835fc" "20251211073441.119":
+  entity full_adder at 1( 0) + 0 on 11;
+  architecture beh of full_adder at 11( 165) + 0 on 12;

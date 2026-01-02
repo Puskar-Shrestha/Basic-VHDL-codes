@@ -1,0 +1,7 @@
+v 4
+file . ".\tb_jk_flipflop.vhd" "e6b3574b3696791b2a6b58206a6d63004f578fd1" "20251214054351.564":
+  entity tb_jk_flipflop at 1( 0) + 0 on 13;
+  architecture beh of tb_jk_flipflop at 7( 88) + 0 on 14;
+file . ".\jk_flipflop.vhd" "4f0392c90f8f6f27062da0cae2fc6608788be6a6" "20251214054345.782":
+  entity jk_flipflop at 1( 0) + 0 on 11;
+  architecture beh of jk_flipflop at 11( 164) + 0 on 12;

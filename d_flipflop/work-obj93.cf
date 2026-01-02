@@ -1,0 +1,7 @@
+v 4
+file . ".\tb_d_flipflop.vhd" "1721ca4837ddb6246f6bcc0cd75d21a46f6bbe79" "20251214051517.235":
+  entity tb_d_flipflop at 1( 0) + 0 on 13;
+  architecture beh of tb_d_flipflop at 7( 87) + 0 on 14;
+file . ".\d_flipflop.vhd" "2fff2ddee0c8f8e0395ca7a8472aa4a3a89de1aa" "20251214051512.021":
+  entity d_flipflop at 1( 0) + 0 on 11;
+  architecture beh of d_flipflop at 12( 186) + 0 on 12;

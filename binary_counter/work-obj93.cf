@@ -1,0 +1,7 @@
+v 4
+file . ".\tb_binary_counter.vhd" "664a63879062abb00abd0da81600e60f3c7536c8" "20251227150613.753":
+  entity tb_binary_counter at 1( 0) + 0 on 13;
+  architecture beh of tb_binary_counter at 7( 91) + 0 on 14;
+file . ".\binary_counter.vhd" "8523db47ee17bd78395c6205c35e6c18a1c5b697" "20251227150609.141":
+  entity binary_counter at 1( 0) + 0 on 11;
+  architecture beh of binary_counter at 12( 216) + 0 on 12;

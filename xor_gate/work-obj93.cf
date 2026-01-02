@@ -1,0 +1,7 @@
+v 4
+file . ".\tb_xor_gate.vhd" "d5cac2562b810c01b70928c74c038cce0364a98c" "20251127013615.950":
+  entity tb_xor_gate at 2( 64) + 0 on 13;
+  architecture sim of tb_xor_gate at 8( 149) + 0 on 14;
+file . ".\xor_gate.vhd" "6cf556a91cc3fda63c40c2d124b3a4be52b553c6" "20251127013605.001":
+  entity xor_gate at 1( 0) + 0 on 11;
+  architecture beh of xor_gate at 11( 151) + 0 on 12;
