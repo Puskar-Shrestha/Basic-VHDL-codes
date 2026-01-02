@@ -21,6 +21,8 @@ To generate a `.vcd` waveform file:
 ```sh
 ghdl -r my_tb --vcd=wave.vcd
 ```
+> Note: In Order to add stop time to the simulation, we add `--stop-time=x` where x is time at the end of the code above. E.g. `ghdl -r my_tb --vcd=wave.vcd --stop-time=200ns`
+
 Then open wave.vcd in GTKWave:
 ```sh
 gtkwave wave.vcd
