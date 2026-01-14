@@ -1,0 +1,7 @@
+v 4
+file . ".\tb_sequence_detector.vhd" "eb0294189a396764c3f7dcd0bd70ccfee8ace4ad" "20260114060346.845":
+  entity tb_seq_1011_mealy at 1( 0) + 0 on 13;
+  architecture behavioral of tb_seq_1011_mealy at 7( 102) + 0 on 14;
+file . ".\sequence_detection.vhd" "374cdd508f9f0e6ee3e2257370e3af26a033be70" "20260114060342.294":
+  entity seq_1011_mealy at 1( 0) + 0 on 11;
+  architecture behavioral of seq_1011_mealy at 13( 295) + 0 on 12;

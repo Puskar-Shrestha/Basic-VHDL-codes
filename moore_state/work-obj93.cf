@@ -1,0 +1,7 @@
+v 4
+file . ".\tb_traffic.vhd" "67eb950ecbcfadfd9ef28980c1a62933afa13987" "20260114052803.352":
+  entity tb_traffic at 1( 0) + 0 on 13;
+  architecture behavioral of tb_traffic at 7( 88) + 0 on 14;
+file . ".\traffic.vhd" "138a84a315a63a14486c5df580768ce43937ac2e" "20260114052757.996":
+  entity traffic_light_moore at 1( 0) + 0 on 11;
+  architecture behavioral of traffic_light_moore at 15( 317) + 0 on 12;
