@@ -1,20 +1,10 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
-entity tb_seq_1011_mealy is
-end tb_seq_1011_mealy;
+entity tb_sequence_detector is
+end tb_sequence_detector;
 
-architecture Behavioral of tb_seq_1011_mealy is
-
-    -- Component declaration
-    component seq_1011_mealy
-        Port (
-            clk   : in  STD_LOGIC;
-            reset : in  STD_LOGIC;
-            x     : in  STD_LOGIC;
-            z     : out STD_LOGIC
-        );
-    end component;
+architecture Behavioral of tb_sequence_detector is
 
     -- Signals
     signal clk   : STD_LOGIC := '0';
@@ -29,7 +19,7 @@ begin
     ------------------------------------------------------------------
     -- Instantiate Unit Under Test (UUT)
     ------------------------------------------------------------------
-    uut: seq_1011_mealy
+    uut: entity work.seq_1011_mealy
         port map (
             clk   => clk,
             reset => reset,

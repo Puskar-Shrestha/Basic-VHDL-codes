@@ -6,17 +6,6 @@ end tb_traffic;
 
 architecture Behavioral of tb_traffic is
 
-    -- Component declaration
-    component traffic_light_moore
-        Port (
-            clk    : in  STD_LOGIC;
-            reset  : in  STD_LOGIC;
-            red    : out STD_LOGIC;
-            yellow : out STD_LOGIC;
-            green  : out STD_LOGIC
-        );
-    end component;
-
     -- Testbench signals
     signal clk    : STD_LOGIC := '0';
     signal reset  : STD_LOGIC := '0';
@@ -31,7 +20,7 @@ begin
     ------------------------------------------------------------------
     -- Instantiate the Unit Under Test (UUT)
     ------------------------------------------------------------------
-    uut: traffic_light_moore
+    uut:entity work.traffic_light_moore
         port map (
             clk    => clk,
             reset  => reset,
