@@ -14,7 +14,7 @@ ghdl -e my_tb
 ```
 This creates an executable simulation file.
 
-**Note**: just the name of testbench not the extention
+**Note**: just the name of the entity created in the testbench(usually it is the name of the testbench file without the extension)
 
 ### 3. Run the Simulation and Generate a Waveform
 To generate a `.vcd` waveform file:
