@@ -1,0 +1,7 @@
+v 4
+file . ".\tb_binary_to_bcd.vhd" "be751db85c4f48711152d7620788a394f4712b30" "20260129130734.035":
+  entity tb_binary_to_bcd at 1( 0) + 0 on 17;
+  architecture behavioral of tb_binary_to_bcd at 8( 127) + 0 on 18;
+file . ".\binary_to_bcd.vhd" "abb41f8f6d3311adc364dd3b7e820b710a4b773b" "20260129130731.808":
+  entity bin_to_bcd at 1( 0) + 0 on 15;
+  architecture behavioral of bin_to_bcd at 12( 235) + 0 on 16;

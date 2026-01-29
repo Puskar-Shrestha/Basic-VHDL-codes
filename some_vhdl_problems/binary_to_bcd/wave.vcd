@@ -1,0 +1,85 @@
+$date
+  Thu Jan 29 18:53:16 2026
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module tb_binary_to_bcd $end
+$var reg 8 ! bin[7:0] $end
+$var reg 12 " bcd[11:0] $end
+$scope module dut $end
+$var reg 8 # bin[7:0] $end
+$var reg 12 $ bcd[11:0] $end
+$var integer 32 % value $end
+$var integer 32 & hundreds $end
+$var integer 32 ' tens $end
+$var integer 32 ( ones $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b00000000 !
+b000000000000 "
+b00000000 #
+b000000000000 $
+b0 %
+b0 &
+b0 '
+b0 (
+#10000000
+b00000101 !
+b000000000101 "
+b00000101 #
+b000000000101 $
+b101 %
+b101 (
+#20000000
+b00001100 !
+b000000010010 "
+b00001100 #
+b000000010010 $
+b1100 %
+b1 '
+b10 (
+#30000000
+b00101010 !
+b000001000010 "
+b00101010 #
+b000001000010 $
+b101010 %
+b100 '
+#40000000
+b01100011 !
+b000010011001 "
+b01100011 #
+b000010011001 $
+b1100011 %
+b1001 '
+b1001 (
+#50000000
+b10011100 !
+b000101010110 "
+b10011100 #
+b000101010110 $
+b10011100 %
+b1 &
+b101 '
+b110 (
+#60000000
+b11111111 !
+b001001010101 "
+b11111111 #
+b001001010101 $
+b11111111 %
+b10 &
+b101 (
+#70000000
