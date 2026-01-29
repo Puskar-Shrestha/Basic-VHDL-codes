@@ -1,0 +1,7 @@
+v 4
+file . ".\tb_shift_register.vhd" "3b49a4ed03eb1dc0d8255da3acc89c5dbf42db7d" "20260129125502.871":
+  entity tb_shift_register at 1( 0) + 0 on 13;
+  architecture behavioral of tb_shift_register at 7( 102) + 0 on 14;
+file . ".\shift_register.vhd" "18ecc6f24a508f03a32a3aba898c91e4bb44e8f7" "20260129125500.835":
+  entity shift_register_4bit at 1( 0) + 0 on 11;
+  architecture behavioral of shift_register_4bit at 13( 273) + 0 on 12;

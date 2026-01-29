@@ -1,0 +1,7 @@
+v 4
+file . ".\tb_8_bit_comparator.vhd" "bcb537663d554ce6af41644628dbfbba40bfb6eb" "20260121052037.560":
+  entity tb_8_bit_comparator at 1( 0) + 0 on 13;
+  architecture sim of tb_8_bit_comparator at 7( 93) + 0 on 14;
+file . ".\8_bit_comparator.vhd" "66fc111e5b4e2eb8944ffb1818463cadcd3341ee" "20260121052031.597":
+  entity eight_bit_comparator at 1( 0) + 0 on 11;
+  architecture beh of eight_bit_comparator at 16( 333) + 0 on 12;
