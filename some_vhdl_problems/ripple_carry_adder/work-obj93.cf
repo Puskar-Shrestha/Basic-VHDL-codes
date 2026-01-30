@@ -1,0 +1,10 @@
+v 4
+file . ".\tb_ripple_carry_adder_4bit.vhd" "9c1f5550885b2a6920714eca121655485b6003c3" "20260130131756.460":
+  entity tb_ripple_carry_adder_4bit at 1( 0) + 0 on 15;
+  architecture behavior of tb_ripple_carry_adder_4bit at 8( 147) + 0 on 16;
+file . ".\full_adder.vhd" "bf75ff13147ab8be68dabc351298468d10a0f0a3" "20260130131745.077":
+  entity full_adder at 1( 0) + 0 on 11;
+  architecture structural of full_adder at 14( 262) + 0 on 12;
+file . ".\ripple_carry_adder_4bit.vhd" "8ecc832f14eb61e20619480c4772ee1bfddd8284" "20260130131750.526":
+  entity ripple_carry_adder_4bit at 1( 0) + 0 on 13;
+  architecture structural of ripple_carry_adder_4bit at 14( 345) + 0 on 14;
