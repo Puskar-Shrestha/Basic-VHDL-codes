@@ -1,0 +1,7 @@
+v 4
+file . ".\tb_comparator_1bit.vhd" "2a1c271f06841f43730ca3b3f6172b9b1010c470" "20260130124659.035":
+  entity tb_comparator_1bit at 1( 0) + 0 on 13;
+  architecture behavioral of tb_comparator_1bit at 7( 104) + 0 on 14;
+file . ".\comparator_1bit.vhd" "3f040b81e8803db7e7744e5050a42b7813d19b5e" "20260130124654.108":
+  entity comparator_1bit at 1( 0) + 0 on 11;
+  architecture behavioral of comparator_1bit at 14( 262) + 0 on 12;
