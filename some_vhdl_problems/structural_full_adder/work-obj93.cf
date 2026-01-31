@@ -1,0 +1,10 @@
+v 4
+file . ".\tb_full_adder.vhd" "c928fab65fa47037770248f77d26e0a78f53b51d" "20260131041236.838":
+  entity tb_full_adder at 1( 0) + 0 on 15;
+  architecture behavior of tb_full_adder at 8( 121) + 0 on 16;
+file . ".\half_adder.vhd" "71d4a4b00b836ea53b0f415144f0fd02cfefe1fe" "20260131041222.975":
+  entity half_adder at 1( 0) + 0 on 11;
+  architecture structural of half_adder at 13( 235) + 0 on 12;
+file . ".\full_adder.vhd" "268233382f5a1ae51d754828ff3b4b18e3c68ab8" "20260131041231.350":
+  entity full_adder at 1( 0) + 0 on 13;
+  architecture structural of full_adder at 14( 262) + 0 on 14;
