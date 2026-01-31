@@ -1,0 +1,7 @@
+v 4
+file . ".\tb_comparator_3bit.vhd" "c9c4fa3e4654ab5dc80fe5bef39645e06faf0d4a" "20260131010405.464":
+  entity tb_comparator_3bit at 1( 0) + 0 on 13;
+  architecture tb of tb_comparator_3bit at 7( 104) + 0 on 14;
+file . ".\comparator_3bit.vhd" "3bd91b0c76d7115bb3ec46488d18a360b5d8da56" "20260131010400.454":
+  entity comparator_3bit at 1( 0) + 0 on 11;
+  architecture structural of comparator_3bit at 14( 300) + 0 on 12;
