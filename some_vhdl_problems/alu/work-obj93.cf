@@ -1,0 +1,7 @@
+v 4
+file . ".\tb_ALU_4bit.vhd" "f2967ee4bb1020bd5f1c7a593a9800c2630776e1" "20260131090614.777":
+  entity tb_alu_4bit at 1( 0) + 0 on 13;
+  architecture behavioral of tb_alu_4bit at 8( 117) + 0 on 14;
+file . ".\ALU_4bit.vhd" "c6221935d1da2d78ec86d08340893d3f6325b671" "20260131090609.808":
+  entity alu_4bit at 1( 0) + 0 on 11;
+  architecture behavioral of alu_4bit at 15( 376) + 0 on 12;
