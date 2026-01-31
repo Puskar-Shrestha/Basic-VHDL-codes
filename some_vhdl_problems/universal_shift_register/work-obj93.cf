@@ -1,0 +1,7 @@
+v 4
+file . ".\tb_universal_shift_register_4bit.vhd" "1ad03c24d73b0e85d91753a3e2c3e9a56548c0b9" "20260131003741.175":
+  entity tb_universal_shift_register_4bit at 1( 0) + 0 on 13;
+  architecture behavior of tb_universal_shift_register_4bit at 7( 132) + 0 on 14;
+file . ".\universal_shift_register_4bit.vhd" "2d1c3dfed8ce064aa4708e6594461c01ced7e05e" "20260131003710.524":
+  entity universal_shift_register_4bit at 1( 0) + 0 on 11;
+  architecture behavioral of universal_shift_register_4bit at 15( 437) + 0 on 12;
