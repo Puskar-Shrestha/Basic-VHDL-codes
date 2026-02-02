@@ -8,51 +8,68 @@ end tb_binary_to_bcd;
 architecture Behavioral of tb_binary_to_bcd is
 
     -- DUT signals
-    signal bin  : std_logic_vector(7 downto 0);
-    signal bcd  : std_logic_vector(11 downto 0);
+    signal bin : STD_LOGIC_VECTOR(7 downto 0);
+    signal bcd : STD_LOGIC_VECTOR(11 downto 0);
 
 begin
 
-    -- Instantiate the Device Under Test (DUT)
-    DUT: entity work.bin_to_bcd
+    -- ===============================
+    -- DUT instantiation (NO component)
+    -- ===============================
+    DUT : entity work.bin_to_bcd
         port map (
             bin => bin,
             bcd => bcd
         );
 
+    -- ===============================
     -- Stimulus process
-    stim_proc: process
+    -- ===============================
+    stim_proc : process
     begin
-        -- Test 0
-        bin <= "00000000";  -- 0
+
+        -- 0
+        bin <= "00000000";
         wait for 10 ns;
 
-        -- Test 5
-        bin <= "00000101";  -- 5
+        -- 1
+        bin <= "00000001";
         wait for 10 ns;
 
-        -- Test 12
-        bin <= "00001100";  -- 12
+        -- 9
+        bin <= "00001001";
         wait for 10 ns;
 
-        -- Test 42
-        bin <= "00101010";  -- 42
+        -- 10
+        bin <= "00001010";
         wait for 10 ns;
 
-        -- Test 99
-        bin <= "01100011";  -- 99
+        -- 42
+        bin <= "00101010";
         wait for 10 ns;
 
-        -- Test 156
-        bin <= "10011100";  -- 156
+        -- 99
+        bin <= "01100011";
         wait for 10 ns;
 
-        -- Test 255
-        bin <= "11111111";  -- 255
+        -- 100
+        bin <= "01100100";
         wait for 10 ns;
 
-        -- End simulation
+        -- 128
+        bin <= "10000000";
+        wait for 10 ns;
+
+        -- 200
+        bin <= "11001000";
+        wait for 10 ns;
+
+        -- 255
+        bin <= "11111111";
+        wait for 10 ns;
+
         wait;
     end process;
+
 
 end Behavioral;

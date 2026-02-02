@@ -4,29 +4,42 @@ use IEEE.NUMERIC_STD.ALL;
 
 entity bin_to_bcd is
     Port (
-        bin  : in  STD_LOGIC_VECTOR(7 downto 0);
-        bcd  : out STD_LOGIC_VECTOR(11 downto 0)
+        bin : in  STD_LOGIC_VECTOR(7 downto 0);
+        bcd : out STD_LOGIC_VECTOR(11 downto 0)
     );
 end bin_to_bcd;
 
 architecture Behavioral of bin_to_bcd is
-    signal value     : integer range 0 to 255;
-    signal hundreds  : integer range 0 to 9;
-    signal tens      : integer range 0 to 9;
-    signal ones      : integer range 0 to 9;
+
+    signal uval      : unsigned(7 downto 0);
+
+    -- Intermediate wide results
+    signal h_tmp     : unsigned(7 downto 0);
+    signal t_tmp     : unsigned(7 downto 0);
+    signal o_tmp     : unsigned(7 downto 0);
+
+    -- Final BCD digits
+    signal hundreds  : unsigned(3 downto 0);
+    signal tens      : unsigned(3 downto 0);
+    signal ones      : unsigned(3 downto 0);
+
 begin
 
-    -- Convert binary to integer
-    value <= to_integer(unsigned(bin));
+    uval <= unsigned(bin);
 
-    -- Decimal digit extraction
-    hundreds <= value / 100;
-    tens     <= (value / 10) mod 10;
-    ones     <= value mod 10;
+    -- Full-width division results
+    h_tmp <= uval / 100;
+    t_tmp <= (uval / 10) mod 10;
+    o_tmp <= uval mod 10;
 
-    -- Pack into BCD
-    bcd(11 downto 8) <= std_logic_vector(to_unsigned(hundreds, 4));
-    bcd(7 downto 4)  <= std_logic_vector(to_unsigned(tens, 4));
-    bcd(3 downto 0)  <= std_logic_vector(to_unsigned(ones, 4));
+    -- Safe narrowing (values are guaranteed 0–9)
+    hundreds <= h_tmp(3 downto 0);
+    tens     <= t_tmp(3 downto 0);
+    ones     <= o_tmp(3 downto 0);
+
+    bcd(11 downto 8) <= std_logic_vector(hundreds);
+    bcd(7 downto 4)  <= std_logic_vector(tens);
+    bcd(3 downto 0)  <= std_logic_vector(ones);
 
 end Behavioral;
+
