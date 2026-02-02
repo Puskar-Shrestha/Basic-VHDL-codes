@@ -1,0 +1,7 @@
+v 4
+file . ".\tb_sr_flipflop.vhd" "b1341623ccd2132bbfd1474eaaa7c86e29f012f8" "20260202073638.722":
+  entity tb_sr_flipflop at 1( 0) + 0 on 13;
+  architecture behavioral of tb_sr_flipflop at 7( 96) + 0 on 14;
+file . ".\sr_flipflop.vhd" "9aa61a60b731e9703b08cbcc8b6e0d9897f8df64" "20260202073631.845":
+  entity sr_flipflop at 1( 0) + 0 on 11;
+  architecture behavioral of sr_flipflop at 13( 229) + 0 on 12;
